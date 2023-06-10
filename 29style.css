@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+section header ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+section header ul li button{
+    background-color:rgb(23, 71, 160);
+    border: none;
+    outline: none;
+    padding: 8px 14px ;
+    font-size: 14px;
+    color: White;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+section .main .searchbox .search{
+    width: 100%;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid rgb(143, 140, 140);
+    outline: none;
+    font-size: 16px;
+}
+
+section .main .searchbox .icon{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+
+}
+
+
+section .main .buttons{
+    margin-top: 20px;
+
+}
+
+section .main .buttons button{
+    margin: 0px 5px;
+    padding: 12px 20px;
+    color: darkslateblue;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px solid transparent;
+    outline: none;
+}
+
+section .main .buttons button:hover{
+    border-radius: 1px solid yellow;
+
+}
+
+section .main .lang{
+    margin-top: 12px;
+}
+
+section .footer{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    color: white;
+}
+
+section .footer .row{
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid white);
+}
+
+section .footer .row ul{
+    display: flex; 
+}
+
+section .footer .row ul li{
+    list-style: none;
+} 
+
+section .footer .row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(49, 42, 42);
+    margin-right: 25px;
+}
+
+section .main .lang .name{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+<div class="icon1">
+<i class="fa-solid fa-bars"></i>
+<p>Menu</p>
+
+<ul class="hover">
+    <li>Settings</li>
+    <li>Privacy police</li>
+    <li>About us</li>
+</ul>
+
+<ul>
+    <div class="icon2"><i class="fa-solid fa-user"></i></div>
+    <li>Profile</li>
+    <li>Page</li>
+    <li>Feature</li>
+    <li>Elements</li>
+    <li>About</li>
+</ul>
+</div>
